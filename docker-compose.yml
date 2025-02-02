@@ -1,0 +1,8 @@
+services:
+  docs:
+    build: .
+    volumes:
+      - ./data:/var/www/static
+      - ./lighttpd.conf:/etc/lighttpd/lighttpd.conf:ro
+    ports:
+      - "1700:80"
