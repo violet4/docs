@@ -1,0 +1,11 @@
+# Built documentation
+/data/*
+!/data/.gitkeep
+
+# Source repositories
+/repos/*
+!/repos/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
